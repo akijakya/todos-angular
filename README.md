@@ -1,6 +1,7 @@
 # TodosAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
+Tutorial by [Traversy Media](https://www.youtube.com/watch?reload=9&v=Fdf5aTYRW0E)
 
 ## Development server
 

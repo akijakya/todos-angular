@@ -1,2 +1,8 @@
-<app-todo-item *ngFor = "let todo of todos" [todo]="todo">
+<app-add-todo (addTodo)="addTodo($event)"></app-add-todo>   <!-- we get the  addTodo from the add-todo.component.ts 
+                                                            and setting it to "addTodo" in the todos.component.ts -->
+<app-todo-item 
+    *ngFor = "let todo of todos" 
+    [todo]="todo"
+    (deleteTodo)="deleteTodo($event)">  <!-- we get the  deleteTodo from the todo-item.component.ts 
+                                        and setting it to "deleteTodo" in the todos.component.ts -->
 </app-todo-item>
